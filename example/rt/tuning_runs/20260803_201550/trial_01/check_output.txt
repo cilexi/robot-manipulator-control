@@ -1,0 +1,13 @@
+配置检查通过: /home/robot/ChenHong/YCX/VRT_PPC/example/rt/tuning_runs/20260803_201550/trial_01/optimal_backstepping_torque.cfg
+  hardware_enable=true, ready_pose_confirmed=true, perform_ready_move=true
+  robot_ip=192.168.2.200, local_ip=192.168.2.100
+  barrier=true, constraint_schedule=true, RL=false, learning=false
+  network=joint Z1/Z2(6/6), rbf_nodes=64, Halton=simulation first 25 + continuation, actor_direction_projection=false
+  rbf_center=[-1.5,1.5], rbf_width=1.02, standardized_clip=4, initial_weight_seed=21
+  pseudo_huber=residual col(Bellman,eP), eps=(0.04,0.08)
+  mass_model=xMateCR7 URDF full M(q) / fixed M_456,456, controlled_joints=5, inactive_joints_fixed=true
+  urdf_inertia_acknowledged=false
+  注意：未确认的 URDF 惯性参数会产生警告，但不再阻止运行；质量矩阵数值健康检查仍保持启用。
+警告：厂家 URDF 惯性参数尚未通过物理一致性确认；程序将按当前配置继续运行。
+      当前 M(q) 只能视为候选模型，请保持保守力矩/加速度限制并确保急停可用。
+      若已完成人工核实，可设置 acknowledge_unverified_urdf_inertia=true 以消除此警告。

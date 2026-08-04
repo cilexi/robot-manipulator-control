@@ -1,0 +1,14 @@
+[I|2026-08-03 20:13:59.165 3664987] uid: 82c5bef9-4881 | Connect to 192.168.2.200 from 192.168.2.100
+[I|2026-08-03 20:13:59.212 3664987] uid: 82c5bef9-4881 | setOperationMode end, switch to auto (0)
+[I|2026-08-03 20:13:59.557 3664987] uid: 82c5bef9-4881 | setMotionControlMode end, mode: RtCommand (0)
+[I|2026-08-03 20:14:00.424 3664987] uid: 82c5bef9-4881 | setPowerState end, switch motor true (0)
+[I|2026-08-03 20:14:00.680 3664987] uid: 82c5bef9-4881 | startReceiveRobotState end, 1 ["q_m", "dq_m"] (0)
+[I|2026-08-03 20:14:00.681 3664987] uid: 82c5bef9-4881 | Exec RT MoveJ 0.05 [2.6125610293677324e-05, -0.0009119995152976351, -0.0006876548250693601, -0.00039955405834458805, -0.09944677605613558, -0.00012775183749110105] [0, 0, 0, 0, 0, 0]
+[I|2026-08-03 20:14:00.724 3664987] uid: 82c5bef9-4881 | RtControlT startMove jointPosition
+[I|2026-08-03 20:14:00.724 3664987] uid: 82c5bef9-4881 | exec startLoop true
+[I|2026-08-03 20:14:03.471 3664987] uid: 82c5bef9-4881 | setFilterLimit true 30
+[I|2026-08-03 20:14:03.516 3664987] uid: 82c5bef9-4881 | RtControlT startMove torque
+[I|2026-08-03 20:14:03.516 3664987] uid: 82c5bef9-4881 | exec startLoop true
+[I|2026-08-03 20:14:24.080 3664987] uid: 82c5bef9-4881 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-08-03 20:14:24.124 3664987] uid: 82c5bef9-4881 | setPowerState end, switch motor false (0)
+[I|2026-08-03 20:14:24.169 3664987] uid: 82c5bef9-4881 | setOperationMode end, switch to manual (0)

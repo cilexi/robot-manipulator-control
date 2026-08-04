@@ -1,0 +1,24 @@
+cmake-build-*/
+.vs*/
+.idea/
+/example/cpp/myTest.*
+build/
+# Windows编译文件
+*.lib
+*.dll
+*.pdb
+*.exe
+
+# Debug/Release输出
+Debug/
+Release/
+build/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# Linux编译
+*.o
+*.so

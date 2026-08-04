@@ -1,0 +1,32 @@
+[
+  {
+    "samples": 2000,
+    "duration_s": 20.0,
+    "aborted": false,
+    "error_rms": 0.05486463462621119,
+    "error_peak": 0.1052609134,
+    "velocity_peak": 0.05026548246,
+    "tau_raw_peak": 0.2579026124,
+    "tau_cmd_peak": 0.2579026124,
+    "tau_saturation_fraction": 0.0,
+    "torque_step_peak": 0.02933973399,
+    "torque_step_sign_flips": 272,
+    "barrier_peak": 0.5055158328,
+    "alpha_dot_peak": 0.5,
+    "return_code": 0,
+    "trial": 1,
+    "params": {
+      "traj_amp5": 0.1,
+      "traj_omega5": 0.3,
+      "k1_5": 8.0,
+      "k2_5": 12.0,
+      "alpha_limit5": 0.9,
+      "alpha_dot_limit5": 0.5,
+      "virtual_accel_limit5": 1.0,
+      "alpha_dot_filter": 0.01,
+      "tau_limit5": 1.0,
+      "tau_rate_limit5": 16.0
+    },
+    "console_abort": false
+  }
+]
