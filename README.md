@@ -77,4 +77,4 @@ xCore SDK通过以太网（TCP/IP）连接机器人。如果只使用非实时�
 # License
 
 > Copyright (C) 2024 ROKAE (Beijing) Technology Co., LTD. 
-一个在络石机器人上进行控制器设计实验的项目，主要改编（控制器设计环节在example/rt文件夹下）其内所含为控制器cpp文件与py数据处理文件。相关控制器参数设计config文件也在此文件夹下。
+* 一个在络石机器人上进行控制器设计实验的项目，主要改编（控制器设计环节在example/rt文件夹下）其内所含为控制器cpp文件与py数据处理文件。相关控制器参数设计config文件也在此文件夹下。
