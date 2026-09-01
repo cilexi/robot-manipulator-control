@@ -1,0 +1,12 @@
+nomal_backstepping 配置检查通过: /home/robot/ChenHong/YCX/VRT_PPC/example/rt/nomal_backstepping_runs/20260901_152223/nomal_backstepping.cfg
+  joint=6, RL/NN=absent, barrier=true
+  K1=62, K2=50
+  reference A=0.02 rad, omega=0.523599 rad/s
+  nominal_inertia6=0.0425, v_limit=28, tau_limit6=1.3 Nm
+  sine_duration=24 s, total_time=27 s
+已连接机型: XMC7-R850-W0X3B1
+跳过 MoveJ，当前姿态作为第六关节正弦中心和其余关节保持位置。
+已进入第六关节 No-RL 反步力矩实验。
+t=0.5 e6=-0.00460641 z1=-0.0562359 z2=-0.29009 tau6=0.328894 theta=0.05
+t=1 e6=-0.0209838 z1=-0.252966 z2=-1.30499 tau6=1.19 theta=0.05
+实验由安全保护中止: 关节 6 速度超限

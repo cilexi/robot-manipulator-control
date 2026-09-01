@@ -1,0 +1,45 @@
+{
+  "samples": 2700,
+  "duration_s": 27.0,
+  "absolute_error_integral_rad_s": 0.026509957194185665,
+  "aborted": false,
+  "error_rms": 0.0013524889225248592,
+  "error_peak": 0.003085095838,
+  "z1_rms": 0.01668592918690111,
+  "z2_rms": 0.0683682396207012,
+  "alpha_peak": 0.1648096817,
+  "alpha_dot_peak": 1.225560673,
+  "virtual_accel_peak": 7.072716293,
+  "tau_raw_peak": 0.9548166996,
+  "tau_cmd_peak": 0.7019286738,
+  "barrier_ratio_peak": 0.2252412557,
+  "theta_initial_logged": 0.05,
+  "theta_final": 7.920373855e-07,
+  "theta_peak": 0.05,
+  "alpha_saturation_fraction": 0.0,
+  "alpha_dot_saturation_fraction": 0.0,
+  "virtual_accel_saturation_fraction": 0.0,
+  "torque_amplitude_saturation_fraction": 0.0,
+  "torque_rate_saturation_fraction": 0.011111111111111112,
+  "positive_reference_velocity": {
+    "samples": 1197,
+    "error_rms": 0.000776007585588869,
+    "error_mean": -8.019278663004753e-05,
+    "tau_mean": 0.01094717798019736
+  },
+  "negative_reference_velocity": {
+    "samples": 1198,
+    "error_rms": 0.0017475735804967996,
+    "error_mean": 0.0016576601899324795,
+    "tau_mean": -0.4894382292594348
+  },
+  "held_joint_drift_peak": {
+    "1": 4.3143209599999985e-06,
+    "2": 4.074636459999997e-06,
+    "3": 2.3968449809999992e-06,
+    "4": 1.1504855909999997e-05,
+    "5": 2.636529480000002e-06
+  },
+  "directional_error_difference": 0.0009715659949079306,
+  "return_code": 0
+}

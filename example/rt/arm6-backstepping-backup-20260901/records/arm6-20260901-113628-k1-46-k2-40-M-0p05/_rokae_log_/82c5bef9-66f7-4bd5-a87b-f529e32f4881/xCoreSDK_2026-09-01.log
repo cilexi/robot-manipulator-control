@@ -1,0 +1,11 @@
+[I|2026-09-01 11:36:32.746 41935] uid: 82c5bef9-4881 | Connect to 192.168.2.200 from 192.168.2.100
+[I|2026-09-01 11:36:32.795 41935] uid: 82c5bef9-4881 | setOperationMode end, switch to auto (0)
+[I|2026-09-01 11:36:33.138 41935] uid: 82c5bef9-4881 | setMotionControlMode end, mode: RtCommand (0)
+[I|2026-09-01 11:36:34.004 41935] uid: 82c5bef9-4881 | setPowerState end, switch motor true (0)
+[I|2026-09-01 11:36:34.265 41935] uid: 82c5bef9-4881 | startReceiveRobotState end, 1 ["q_m", "dq_m"] (0)
+[I|2026-09-01 11:36:34.265 41935] uid: 82c5bef9-4881 | setFilterLimit true 30
+[I|2026-09-01 11:36:34.313 41935] uid: 82c5bef9-4881 | RtControlT startMove torque
+[I|2026-09-01 11:36:34.313 41935] uid: 82c5bef9-4881 | exec startLoop true
+[I|2026-09-01 11:37:01.869 41935] uid: 82c5bef9-4881 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-09-01 11:37:01.917 41935] uid: 82c5bef9-4881 | setPowerState end, switch motor false (0)
+[I|2026-09-01 11:37:01.962 41935] uid: 82c5bef9-4881 | setOperationMode end, switch to manual (0)

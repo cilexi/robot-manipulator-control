@@ -1,0 +1,6 @@
+parameter,recommended_value,locked_lower,locked_upper,interval_width,width_over_lower,best_complete_run,best_absolute_error_integral_rad_s,notes
+control_gain_k1_5,112,112,128,16,0.142857,20260901_170234,0.017265753,k2_5-scaled-with-k1_5
+control_gain_k2_5,187,187,214,27,0.144385,20260901_170234,0.017265753,k1_5-and-k2_5-tuned-together
+nominal_inertia5,0.045,0.045,0.050,0.005,0.111111,20260901_170516,0.007086559,upper-bound-triggered-velocity-abort
+gamma_theta,0.100,0.100,0.115,0.015,0.150000,20260901_170643,0.006818426,0.2-and-0.5-triggered-velocity-abort
+sigma_theta,0.100,0.100,0.115,0.015,0.150000,20260901_170643,0.006818426,0.115-triggered-velocity-abort

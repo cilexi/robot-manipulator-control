@@ -1,0 +1,6 @@
+nomal_backstepping 配置检查通过: /home/robot/ChenHong/YCX/VRT_PPC/example/rt/nomal_backstepping_runs/20260901_150528/nomal_backstepping.cfg
+  joint=6, RL/NN=absent, barrier=true
+  K1=62, K2=50
+  reference A=0.02 rad, omega=0.523599 rad/s
+  nominal_inertia6=0.05, v_limit=28, tau_limit6=1.3 Nm
+  sine_duration=12 s, total_time=15 s

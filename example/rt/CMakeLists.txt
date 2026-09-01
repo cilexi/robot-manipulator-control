@@ -27,6 +27,7 @@ if(XCORE_USE_XMATE_MODEL)
     set(EXAMPLES_USE_XMATEMODEL
         PD_stright
         optimal_backstepping_torque
+        nomal_backstepping
         # follow_joint_position
         # tray_test
         # AC_DOB

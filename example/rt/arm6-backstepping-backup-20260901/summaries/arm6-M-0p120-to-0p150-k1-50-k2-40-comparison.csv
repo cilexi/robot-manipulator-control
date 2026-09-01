@@ -1,0 +1,5 @@
+nominal_inertia6,k1_6,k2_6,duration_s,absolute_error_integral_rad_s,error_rms_rad,error_peak_rad,aborted,run_dir,result_image
+0.120,50,40,27.000,0.030542868,0.001555556,0.002946121,false,20260901_155821,20260901_155821/nomal_backstepping_result.png
+0.130,50,40,27.000,0.028008749,0.001394533,0.003418779,false,20260901_160419,20260901_160419/nomal_backstepping_result.png
+0.135,50,40,27.000,0.026509957,0.001352489,0.003085096,false,20260901_160459,20260901_160459/nomal_backstepping_result.png
+0.150,50,40,23.360,NaN,0.001321564,0.008167818,true,20260901_155956,20260901_155956/nomal_backstepping_result.png
